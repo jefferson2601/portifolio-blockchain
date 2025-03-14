@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio  | Front | Analista de Dados</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </div>
+    <div class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Port<span>fólio</span></a></div>
+            <ul class="menu">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#teams">Certificações</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li class="language-switch">
+                    <button onclick="toggleLanguage()" id="langBtn">EN</button>
+                </li>
+            </ul>
+            <div class="menu-btn">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+
+    <!--home inicio-->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Ola, meu nome é</div>
+                <div class="text-2">Jeferson Lopes</div>
+                <div class="text-3">eu sou <span class="typing"></span></div>
+                <a href="/img/Curriculo-blockchain-ingles.pdf">Contratar-me</a>
+            </div>
+        </div>
+    </section>
+
+    <!--sessão sobre-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Sobre</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img id="perfil" src="./img/perfil.png" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">Sou Jeferson Lopes e sou <span class="typing-2"></span></div>
+                    <p>Sou um entusiasta de Blockchain e Web3, em transição para a área de tecnologia. Atualmente, estou cursando Inteligência Artificial e Machine Learning na Universidade Uniasselvi e me especializando em desenvolvimento Blockchain pela Nearx Innovation School.
+
+                        Tenho experiência com smart contracts, dApps e integração com carteiras digitais. Além disso, venho aprimorando minhas habilidades em Solidity, Ethers.js e IPFS para criar soluções inovadoras no ecossistema descentralizado.
+                        
+                        Estou sempre aprendendo e explorando novas formas de unir Blockchain e Inteligência Artificial. Busco oportunidades para crescer na área e colaborar em projetos que fazem a diferença no mundo Web3!</p>
+                    <a href="./img/Curriculo-blockchain-ingles.pdf">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">Certificações</h2>
+           <div class="carousel owl-carousel ">
+               <div class="card">
+                   <div class="box">
+                    <a href="https://nearxschool.s3.us-east-2.amazonaws.com/certificates/fa4b38b60619ae40e8fe005527870ed728b2e5f8.png"><img src="/img/web3-768x432.jpg" alt=""></a>
+                       <div class="text">Fundamentos da Web3</div>
+                       <p>Conhecendo e aplicando os primeiros passos na programação web 3.</p>
+                   </div>
+               </div>
+               <div class="card">
+                <div class="box">
+                    <a href="https://nearxschool.s3.us-east-2.amazonaws.com/certificates/59b16a7832d902d1f4245d44800a4f61811883fd.png"><img src="/img/SmartContracts.jpg" alt="smart-contracts"></a>
+                    <div class="text1">Introdução a Smart Contracts</div>
+                    <p>Conceitos e Práticas, desenvolvendo os primeiros contratos inteligentes em solidity.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <a href="https://nearxschool.s3.us-east-2.amazonaws.com/certificates/b5b6be9e232cbc79fdf58460181cb50fd6ccfc80.png"><img src="./img/foundry.webp" alt="web3"></a>
+                    <div class="text">Foundry</div>
+                    <p>Compilando e fazendo deploys de smart contracts com a ferramenta Foundry.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <a href="https://nearxschool.s3.us-east-2.amazonaws.com/certificates/37b7a6c2815d0a316add50ff0f18f6e9374e6d66.png"><img src="/img/Hyperledger-img.jpg" alt="Hyperledger"></a>
+                    <div class="text">Hyperledger</div>
+                    <p>Construindo uma blockchain do zero com Hyperledger Fabric.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <a href="https://nearxschool.s3.us-east-2.amazonaws.com/certificates/2b6890c89b66d1015a8c405c76a623b3ccdd812d.png"><img src="./img/solidity.png" alt=""></a>
+                    <div class="text">Solidity</div>
+                    <p>Da teoria à práticas avançadas, desenvolvendo contratos inteligentes.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <a href="https://nearxschool.s3.us-east-2.amazonaws.com/certificates/748c385b9ee2ac8693f7c4a69dc7ef9f218955e7.png"><img src="/img/vulnerabilidade.png" alt=""></a>
+                    <div class="text2">Vulnerabilidade de Smart Contracts</div>
+                    <p>Auditando os primeiros contratos inteligentes.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <a href="https://nearxschool.s3.us-east-2.amazonaws.com/certificates/e7167a0a4e0a7392627743fa661e73689a5dcf86.png"><img src="/img/engenharia.webp" alt=""></a>
+                    <div class="text">Engenharia de Prompt</div>
+                    <p>Domine a arte de criar comandos eficientes para automatizar tarefas.</p>
+                </div>
+            </div>
+           </div>
+        </div>
+    </section>
+
+
+     <!--sessão habilidades-->
+     <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Habilidades</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">Minhas habilidades criativas e experiencias</div>
+                    <p>Possuo habilidades em Solidity, JavaScript e Ethers.js, além de experiência no desenvolvimento de contratos inteligentes e aplicações descentralizadas. Tenho conhecimento em integração de blockchain com front-end e uso de IPFS para armazenamento distribuído. Atualmente, estou aprofundando meus estudos em Inteligência Artificial, explorando suas aplicações na tecnologia blockchain para otimizar processos e criar soluções inovadoras no ecossistema Web3.</p>
+                    <a href="https://linkedin.com/in/jefferson2601">Mais informações</a>
+                </div>
+                <div class="column right">
+                   <div class="bars">
+                       <div class="info">
+                           <span>Front-end</span>
+                           <span>83%</span>
+                       </div>
+                       <div class="line html"></div>
+                   </div>
+                   <div class="bars">
+                    <div class="info">
+                        <span>Web3</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="line css"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Solidity</span>
+                        <span>67%</span>
+                    </div>
+                    <div class="line js"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Rust</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line React"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Smart Contracts</span>
+                        <span>62%</span>
+                    </div>
+                    <div class="line mysql"></div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--sessão projetos-->
+    <section class="teams" id="teams">
+        <div class="max-width" id="projetos">
+            <h2 class="title">Meus projetos</h2>
+           <div class="carousel owl-carousel ">
+            
+               <div class="card">
+                   <div class="box">
+                       <a href="https://jefferson2601.github.io/projetoMax/"><img src="/img/maxBlockchain.png" alt=""></a>
+                       <div class="text">Projeto Max Blockchain</div>
+                       <p>Max Blockchain é um ecossistema completo, com distribuição de tokens para interação, uma coleção de NFTs, token nativo e jogo interativo.</p>
+                   </div>
+               </div>
+               <div class="card">
+                <div class="box">
+                    <a href="https://jogo-do-numero-secreto-lemon-beta.vercel.app/"><img src="/img/Wallet.png" alt=""></a>
+                    <div class="text">Slime Wallet</div>
+                    <p>Uma aplicação para criar uma nova carteira, importar uma já existente, adicionar novos tokens, consultar saldo e historico de transações.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <a href="https://amigo-secreto-gamma-five.vercel.app/"><img src="/img/audit.png" alt=""></a>
+                    <div class="text">Auditor de Contratos</div>
+                    <p>Faça uma auditoria completa em seus smart contracts e descubra todas as vulnerabilidades que podem comprometer a segurança.</p>
+                </div>
+            </div>
+            
+           </div>
+        </div>
+    </section>
+     
+     
+
+    <!--Sessão contato-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contato</h2>
+            <div class="contact-content">
+               <div class="column left">
+                   <div class="text">Fale Conosco</div>
+                   <p class="p-contato">Busco minha primeira oportunidade na área de tecnologia, com foco em Blockchain, desenvolvimento de contratos inteligentes e aplicações descentralizadas. Estou motivado a aplicar meus conhecimentos para criar soluções seguras, escaláveis e inovadoras, contribuindo ativamente para o crescimento da empresa. Além de aprimorar minhas habilidades técnicas, estou comprometido em agregar valor por meio da tecnologia Web3 e da descentralização.</p>
+               
+               <div class="icons">
+                   <div class="row">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <div class="info">
+                            <div class="head">Nome</div>
+                            <div class="sub-title">Jeferson Lopes</div>
+                        </div>
+                   </div>
+                   <div class="row">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <div class="info">
+                        <div class="head">Telefone</div>
+                        <div class="sub-title">(98) 98509 - 3657</div>
+                    </div>
+               </div>
+               <div class="row">
+                <ion-icon name="person-outline"></ion-icon>
+                <div class="info">
+                    <div class="head">Email</div>
+                    <div class="sub-title">jefferson260114@gmail.com</div>
+                </div>
+           </div>
+               </div>
+            </div><!--column left-->
+            <div class="column rigth">
+                <div class="text">Mensagem</div>
+                <form id="contato" action="contato.php" method="post" >
+                    <div class="fields">
+                        <div class="field name">
+                            <input id="nome" type="text" placeholder="Nome" name="nome" required>
+                        </div>
+                        <div class="field email">
+                            <input id="telefone" type="number" placeholder="Telefone" name="telefone" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="field">
+                            <input type="email" placeholder="Endereço de Email" name="email" required id="email">
+                        </div>
+                        <div class="field textarea">
+                           <textarea id="mensagem" value="mensagem" name="mensagem" cols="50" rows="25" placeholder="Escrever...." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+       
+        
+        <div class="social-icons">
+            <a href="https://github.com/jefferson2601" target="_blank">
+                <i class="fab fa-github"></i><p>Github</p>
+            </a>
+            <a href="https://linkedin.com/in/jefferson2601" target="_blank">
+                <i class="fab fa-linkedin"></i><p>LinkedIn</p>
+            </a>
+            <a href="https://wa.me/5598985093657" target="_blank">
+                <i class="fab fa-whatsapp"></i><p>Whatsapp</p>
+            </a>
+        </div>
+        
+        
+        <div class="criado-por">
+            <p>© 2025 Jeferson Lopes Araújo - Criado em Fevereiro/2025</p>
+        </div>
+            
+
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script src="translations.js"></script>
+</body>
+</html>
